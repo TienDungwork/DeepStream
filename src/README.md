@@ -35,7 +35,7 @@ python3 polygon_detection_app.py \
 rtsp://localhost:8554/polygon-detect
 ```
 
-## Camera System(C++)
+## Camera System(C++) (8camera/15fps)
 
 
 ```bash

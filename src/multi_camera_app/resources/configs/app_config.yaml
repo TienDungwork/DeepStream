@@ -1,0 +1,40 @@
+# Multi-Camera Polygon Detection App Configuration
+# All application settings in one place
+
+# Input/Output Paths
+streams_config_file: "resources/configs/camera_config.yaml"
+inference_config_file: "resources/configs/config_infer_primary_yolo11.txt"
+
+# Network Settings
+rtsp_port: 8554
+udp_port_start: 5400
+
+# Frame Saving
+save_frames: false
+output_dir: "output_frames"
+draw_bbox: true
+
+# UI Settings
+skip_prompt: true
+headless: true
+
+# Pipeline Settings
+streammux_width: 1080
+streammux_height: 720
+streammux_batch_size: 8
+streammux_batched_push_timeout: 33000
+
+tiler_width: 1080
+tiler_height: 720
+
+# Performance
+enable_perf_measurement: true
+perf_measurement_interval: 5
+
+# RTMP Streaming Settings
+enable_rtmp_streaming: true
+rtmp_server_url: "rtmp://192.168.1.144:1935/POC"
+rtmp_stream_width: 1280
+rtmp_stream_height: 720
+rtmp_fps: 15
+rtmp_bitrate: 800000

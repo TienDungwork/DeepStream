@@ -1,0 +1,44 @@
+# Polygon Configuration Files
+polygon.json
+polygon_cam*.json
+polygon_camera*.json
+
+# Model Engine Files
+*.engine
+model_b*.engine
+model_b*_gpu*.engine
+
+# Calibration Files
+calib.table
+calibration.txt
+
+# Output Directories
+output_frames/
+**/output_frames/
+my_output_folder/
+final_test_*/
+demo_frames_*/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.bak
+.DS_Store

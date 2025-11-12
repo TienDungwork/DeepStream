@@ -1,0 +1,26 @@
+# Camera Streams Configuration
+cameras:
+  - name: Camera 1
+    uri: file:///home/atin/Downloads/b2_1.mp4
+    polygon_file: resources/polygons/polygon_cam1.json
+  
+  - name: Camera 2
+    uri: file:///home/atin/Downloads/b2_1.mp4
+    polygon_file: resources/polygons/polygon_cam2.json
+  
+  - name: Camera 3
+    uri: file:///home/atin/Downloads/b2_1.mp4
+    polygon_file: resources/polygons/polygon_cam3.json
+  
+  - name: Camera 4
+    uri: file:///home/atin/Downloads/b2_1.mp4
+    polygon_file: resources/polygons/polygon_cam4.json
+
+  # - name: Camera 5
+  #   uri: file:///home/atin/Downloads/b2_1.mp4
+  #   polygon_file: resources/polygons/polygon_cam5.json
+  
+  # - name: Camera 6
+  #   uri: file:///home/atin/Downloads/b2_1.mp4
+  #   polygon_file: resources/polygons/polygon_cam6.json
+    

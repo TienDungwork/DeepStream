@@ -1,1 +1,1 @@
-Vào thư mục `src/multi_camera_app` để sử dụng đa camera.
+Vào thư mục `src` để sử dụng.

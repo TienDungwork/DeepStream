@@ -33,6 +33,5 @@ cameras:
 
 ### RTSP Stream
 ```
-URL: rtsp://localhost:8554/multi-camera
+rtmp_server_url: "rtmp://192.168.1.144:1935/POC"
 ```
-- ffplay: `ffplay rtsp://localhost:8554/multi-camera`
